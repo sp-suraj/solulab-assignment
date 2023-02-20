@@ -52,9 +52,9 @@ npm run test:coverage
 
 ## Folder Structure
 
-> _model file_ contains Model Schema
-> _repository file_ manages database actions
-> _service file_ takes action from routes, accessing repository returns response to routes
+* _model file_ contains Model Schema
+* _repository file_ manages database actions
+* _service file_ takes action from routes, accessing repository returns response to routes
 
 1. **_Lib_** folder consists [database file](src/lib/db.js)
 
