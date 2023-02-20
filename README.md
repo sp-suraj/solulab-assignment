@@ -37,7 +37,7 @@ npm run test:coverage
 
 ---
 
-## What are used
+## What are dependencies used
 
 1. For routing- **Express** is Used.
 
@@ -46,7 +46,7 @@ npm run test:coverage
 - For convenience in the creation and management of data in MongoDB.- **Mongoose** is used
 
 3. For test- **Jest** is used. [More About Jest](https://github.com/facebook/jest)
-   `jest --coverage` **test** is done to check if any code is not skipping.
+   * `jest --coverage` **test** is done to check if any code is not skipping.
 
 ---
 
@@ -54,7 +54,7 @@ npm run test:coverage
 
 * _model file_ contains Model Schema
 * _repository file_ manages database actions
-* _service file_ takes action from routes, accessing repository returns response to routes
+* _service file_ takes action from routes, access repository & return response to routes
 
 1. **_Lib_** folder consists [database file](src/lib/db.js)
 
